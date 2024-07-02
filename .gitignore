@@ -1,0 +1,8 @@
+.DS_STORE
+node_modules/
+dist/
+*.zip
+coverage/
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
