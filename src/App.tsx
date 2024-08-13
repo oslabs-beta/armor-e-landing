@@ -1,14 +1,29 @@
 import React from 'react';
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route }
+    from "react-router-dom";
 import SplashPage from './components/SplashPage';
-import NavBar from './components/Navbar';
+import AboutPage from './components/About';
+import ServicesPage from './components/Services';
+import ContactPage from './components/Contact';
 import './App.css';
 
 const App: React.FC = () => {
     return (
-        <div className="App">
-            <NavBar />
-            <SplashPage />
-        </div>
+        <Router>
+            <Routes>
+                <Route path="/contact"
+                    element={<ContactPage />} />
+                <Route path="/services"
+                    element={<ServicesPage />} />
+                <Route path="/about"
+                    element={<AboutPage />} />
+                <Route path="/"
+                    element={<SplashPage />} />
+            </Routes>
+        </Router>
+
+
     );
 };
 
