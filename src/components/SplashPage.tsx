@@ -11,7 +11,7 @@ const SplashPage: React.FC = () => {
                     <p className="description">
                         aka the rocket powered turbo chickens
                     </p>
-                    <button className="documentation-button">Learn More</button>
+                    <button className="learn-more">Learn More</button>
                 </header>
                 <div className="feature-section">
                     <div className="feature">

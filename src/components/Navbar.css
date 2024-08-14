@@ -3,7 +3,7 @@
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(80, 76, 76, 0.8);
     color: white;
     z-index: 1000;
     display: flex;
@@ -16,7 +16,7 @@
     list-style-type: none;
     display: flex;
     margin: 0;
-    padding: 0;
+    padding: 20px;
 }
 
 .nav-item {
@@ -31,5 +31,5 @@
 }
 
 .nav-item a:hover {
-    color: #ffcc00;
+    color:  #007bff;
 }
