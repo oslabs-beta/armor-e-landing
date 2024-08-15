@@ -11,7 +11,7 @@ const ServicesPage: React.FC = () => {
                     <p className="description">
                         Bottom text
                     </p>
-                    <button className="documentation-button">Generic Button</button>
+                    <button className="learn-more">Generic Button</button>
                 </header>
             </div>
         </div>

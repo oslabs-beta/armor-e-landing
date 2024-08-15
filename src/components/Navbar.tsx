@@ -1,8 +1,6 @@
 import React from 'react';
 import './Navbar.css';
 import { useNavigate } from 'react-router-dom';
-// import { GetImageURL } from '../../images/armor-e-logo.png'
-import * as url from '../assets/armor-e logo small.png'
 
 
 const Navbar: React.FC = () => {
@@ -22,7 +20,7 @@ const Navbar: React.FC = () => {
 
     return (
         <nav className="floating-nav">
-            <img src={require('../assets/armor-e logo small.png')} alt="Logo"/>
+            <img className='nav-logo' src={require('../assets/Armor-E Logo t.png')} alt="Logo"/>
             <ul className="nav-list">
                 <li className="nav-item"><a href="/">Home</a></li>
                 <li className="nav-item"><a href="/about" onClick={toAbout}>About</a></li>
