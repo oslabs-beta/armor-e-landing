@@ -1,0 +1,45 @@
+/* src/components/FloatingNavBar.css */
+.floating-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(187, 177, 177);
+    color: white;
+    z-index: 1000;
+    /* display: flex; */
+    /* justify-content: center; */
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    justify-content :right;
+    margin: 0;
+    padding: 20px;
+
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-item a {
+    color: black;
+    text-decoration: none;
+    font-size: 2rem;
+    transition: color 0.3s;
+    text-decoration: underline;
+}
+
+.nav-item a:hover {
+    color:  #007bff;
+}
+
+.nav-logo {
+    display: flex;
+    justify-content: left;
+    width: 100px;
+    padding-left: 20px;
+}

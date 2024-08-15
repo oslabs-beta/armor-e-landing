@@ -1,0 +1,140 @@
+.splash-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(56, 113, 192, 0.25);
+    min-height: 100vh;
+}
+
+.docs-page {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(56, 113, 192, 0.25);
+}
+
+.header {
+    margin-bottom: 40px;
+}
+
+.nav-logo {
+    width: 75px;
+    float: left;
+}
+
+.tagline {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.description {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.docs-description {
+    font-size: 1.5rem;
+    margin:auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.learn-more {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.learn-more:hover {
+    background-color: #0056b3;
+}
+
+.feature-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.feature {
+    background: linear-gradient(180deg, #666 0%, #666 38%, #fff 40%, #fff 70%);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    padding: 20px; 
+    width: 300px;
+    text-align: center;
+    
+}
+
+.feature-title {
+    font-size: 1.5rem;
+    position: relative;
+    top:-20px;
+    justify-content: top;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.feature-description {
+    font-size: 1rem;
+}
+
+.bio-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 20px
+}
+
+.bio {
+    /* display: flex; */
+    background: linear-gradient(180deg, #666 0%, #666 38px, #fff 100px, #fff 70%);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    padding: 10px; 
+    width: 75vw;
+    height: auto;
+    text-align: left;
+    
+}
+
+.bio-title {
+    font-size: 2rem;
+    position: relative;
+    top:-17px;
+    justify-content: top;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 5px;
+    color: #fff
+}
+
+.bio-pic {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    float: left;
+    position: relative;
+    top: 15px;
+}
+
+.bio-description {
+    /* display: inline; */
+    font-size: 1rem;
+    position: sticky;
+    justify-content: bottom;
+    align-self: center;
+    font-size: 3vh;
+    top: -30%;
+}
+
+
