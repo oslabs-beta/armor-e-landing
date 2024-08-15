@@ -10,7 +10,7 @@ const Navbar: React.FC = () => {
         navigate('/about');
     }
 
-    const toServices = () => {
+    const toDocs = () => {
         navigate('/services')
     }
 
@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
             <ul className="nav-list">
                 <li className="nav-item"><a href="/">Home</a></li>
                 <li className="nav-item"><a href="/about" onClick={toAbout}>About</a></li>
-                <li className="nav-item"><a href="/services" onClick={toServices}>Services</a></li>
+                <li className="nav-item"><a href="/services" onClick={toDocs}>Docs</a></li>
                 <li className="nav-item"><a href="/contact" onClick={toContact}>Contact</a></li>
             </ul>
         </nav>

@@ -2,13 +2,6 @@ import React from 'react';
 import './SplashPage.css';
 import Navbar from './Navbar';
 
-const nameArray = ["rocket-powered turbo chickens", "rocket-powered grenade chickens", "missile-guided fire chickens", "fire eagles with rockets", "rocket-fueled chicken farmers", "flaming space hens", "inferno chickens", "pyro-driven roosters", "celestial blaze chickens", "meteoric fire birds", "jet-propelled firebirds"];
-
-const getRandomName =() => {
-    const randomIndex = Math.floor(Math.random() * nameArray.length);
-    return nameArray[randomIndex];
-};
-
 const HomePage: React.FC = () => {
     const toGitHub = () => {
         window.open ('https://github.com/orgs/oslabs-beta/teams/armor-e/repositories', '_blank');
