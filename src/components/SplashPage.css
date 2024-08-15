@@ -5,28 +5,32 @@
     justify-content: center;
     text-align: center;
     padding: 20px;
-    background-color: rgba(56, 113, 192, 0.7);
+    background-color: rgba(56, 113, 192, 0.25);
     min-height: 100vh;
 }
+
 
 .header {
     margin-bottom: 40px;
 }
 
-.logo {
-    width: 100px;
-    height: auto;
-    margin-bottom: 20px;
+.nav-logo {
+    width: 75px;
+    float: left;
 }
 
 .tagline {
     font-size: 2.5rem;
     margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .description {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .learn-more {
@@ -51,27 +55,62 @@
 }
 
 .feature {
-    background-color: #fff;
+    background: linear-gradient(180deg, #666 0%, #666 38%, #fff 40%, #fff 70%);
     border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    padding: 20px; 
     width: 300px;
     text-align: center;
+    
 }
-
-/* .feature-image {
-    width: 100%;
-    height: auto;
-    border-radius: 10px 10px 0 0;
-    margin-bottom: 15px;
-} */
 
 .feature-title {
     font-size: 1.5rem;
-    margin-bottom: 10px;
+    position: relative;
+    top:-20px;
+    justify-content: top;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .feature-description {
     font-size: 1rem;
-    color: #666;
 }
+
+.bio-section {
+    display: block;
+}
+
+.bio {
+    background: linear-gradient(180deg, #666 0%, #666 38%, #fff 40%, #fff 70%);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    padding: 10px; 
+    width: 75vw;
+    height: 100px;
+    text-align: left;
+    
+}
+
+.bio-title {
+    font-size: 1.5rem;
+    position: relative;
+    top:-17px;
+    justify-content: top;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 5px;
+}
+
+.bio-pic {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    float: left
+}
+
+.bio-description {
+    font-size: 1rem;
+    text-indent: 10px;
+}
+
+

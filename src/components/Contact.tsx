@@ -11,7 +11,7 @@ const ContactPage: React.FC = () => {
                     <p className="description">
                         somesadpeeps@gmail.com
                     </p>
-                    <button className="documentation-button">Get them Digits</button>
+                    <button className="learn-more">Get them Digits</button>
                 </header>
             </div>
         </div>

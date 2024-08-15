@@ -2,7 +2,7 @@ import React from 'react';
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route }
     from "react-router-dom";
-import SplashPage from './components/SplashPage';
+import HomePage from './components/Home';
 import AboutPage from './components/About';
 import ServicesPage from './components/Services';
 import ContactPage from './components/Contact';
@@ -20,7 +20,7 @@ const App: React.FC = () => {
                 <Route path="/about"
                     element={<AboutPage />} />
                 <Route path="/"
-                    element={<SplashPage />} />
+                    element={<HomePage />} />
             </Routes>
         </Router>
 
