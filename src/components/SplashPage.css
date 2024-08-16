@@ -24,6 +24,10 @@
     float: left;
 }
 
+.main-logo {
+    padding-top: 120px;
+}
+
 .tagline {
     font-size: 2.5rem;
     margin-bottom: 20px;
