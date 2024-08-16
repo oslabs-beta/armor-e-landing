@@ -6,6 +6,13 @@ const HomePage: React.FC = () => {
     const toGitHub = () => {
         window.open ('https://github.com/orgs/oslabs-beta/teams/armor-e/repositories', '_blank');
     };
+
+    const [groupName, setGroupName] = React.useState(getRandomName());
+
+    React.useEffect(() => {
+        setGroupName(getRandomName())
+    }, []);
+    
     return (
         <div> <Navbar />
          
@@ -17,6 +24,9 @@ const HomePage: React.FC = () => {
                     ARMOR-E (Authentication Repository Management for Open-Source Resilience and End-to-end Security) is a full stack library providing both frontend 
                     components and backend middleware authentication, providing a truly full stack authentication solution. 
                     Our libraries make it easy for the developer to navigate and understand how they will be implementing their authentication on any given project. 
+                    </p>
+                    <p>
+                        Created by: {groupName}
                     </p>
                     <button className="learn-more" onClick={toGitHub} >GitHub</button>
                 </header>
